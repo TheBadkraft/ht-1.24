@@ -8,3 +8,8 @@ This will be the official source repository for **_HT_**. Jeff's work will alway
 [**rambling**]  
   As the OpenPlatform Initiative grows and frameworks are introduced, we will likely re-organize directories, etc. All thoughts about what we _might_ need to consider later on.  
 [/**rambling**]
+
+## Using _ht-1.24_
+1. Clone repository
+2. Copy `/clone_` directory to `/usr/local/include/ht/core`
+3. Create environment variable: `export HT_CORE=~/usr/local/include/ht/core`
