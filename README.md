@@ -11,5 +11,10 @@ This will be the official source repository for **_HT_**. Jeff's work will alway
 
 ## Using _ht-1.24_
 1. Clone repository
-2. Copy `/clone_` directory to `/usr/local/include/ht/core`
+2. Copy `/clone` directory to `/usr/local/include/ht/core`
 3. Create environment variable: `export HT_CORE=~/usr/local/include/ht/core`
+
+Includes will look like so...  
+```
+include '%HT_CORE%/ht_defaults.inc'
+```
