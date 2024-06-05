@@ -15,6 +15,6 @@ This will be the official source repository for **_HT_**. Jeff's work will alway
 3. Create environment variable: `export HT_CORE=~/usr/local/include/ht/core`
 
 Includes will look like so...  
-```
+```assembly
 include '%HT_CORE%/ht_defaults.inc'
 ```
